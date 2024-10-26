@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    width: 100%;
+    background-color: #000;
+    height: 40px;
+}
+#header>div{
+    float: right;
+    margin-right: 50px ;
+}
+#header>div>a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 40px; 
+}
+#header>div>a:hover{
+    text-decoration: underline;
+}
+
+#header>div>span{
+    color: #fff;
+}
+
+nav{
+    background-color: #fff;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 200px 200px 1200px;
+    justify-content: space-around;
+    border-bottom: 2px solid #eee ;
+    position: sticky;
+    top: 0;
+}
+
+#logo{
+    height: 130px;
+    padding-bottom: 20px;
+    
+}
+
+/* #ChonRap{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+#ChonRap>option{
+    color: #000;
+    font-weight: bolder;
+} */
+
+#ChonRap{
+    list-style: none;
+    margin-top: 25px;
+}
+
+.li_1{
+    position: relative;
+    border: 1px solid #000;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.li_1>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+    /* font-weight: bold; */
+}
+.li_1:hover>a{
+    color: #09f;
+}
+.li_1>i{
+    margin-left: 25px;
+}
+.ChonRap1{
+    width: 200px;
+    position: absolute;
+    top: 43px;
+    left: 18px; 
+    background-color: #fff;
+    display: none;
+}
+.ChonRap1>li    {
+    list-style: none;
+}
+
+.ChonRap1>li>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+    /* font-weight: bold; */
+}
+
+
+.ChonRap1>li:hover>a{
+    color: #09f;
+}
+
+.li_1:hover .ChonRap1 {
+    display: grid;
+}
+
+.ChonRap1>li{
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #bbb;
+}
+
+
+#menu{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    list-style: none;
+    justify-content: space-around;
+    line-height: 100px;
+}
+#menu>li>a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#menu>li>a:hover{
+    color: #09f;
+}
+
+section{
+    display: flex;
+    background-color: #eee;
+}
+#group-left{
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#group-left>p{
+    margin-left: 80px;
+}
+#group-left>div{
+    margin-left: 80px;
+}
+
+#group-left button:hover{
+    cursor: pointer;
+}
+table{
+   margin-left: 150px;
+   margin-top: 40px;
+   border-spacing: 50px ;
+}
+table p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+table img:hover{
+    cursor: pointer;
+
+}
+#hotline{
+    text-decoration: none;
+    color: #09f;
+}
+
+#hotline:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer{
+    border-top: 2px solid #bbb;
+}
+
+
